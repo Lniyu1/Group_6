@@ -1,7 +1,8 @@
 import pandas as pd
 
 keywords = input("Enter search keywords (comma-separated): ").split(",")
-# Define the data types for each column based on your dataset
+
+
 data_types = {
     "OBJECTID": object,
     "ACCIDENT_NO": object,
@@ -108,19 +109,19 @@ def search_data(data, keywords):
     else:
         print("No data to search.")
 
-# Define the path to the dataset
+
 dataset_path = "Crash Statistics Victoria.csv"
 
-# Load the data
+
 accident_data = load_data(dataset_path, data_types)
 
-# Tabulate the data
+
 tabulate_data(accident_data)
 
-# Input search keywords
+
 keywords = input("Enter search keywords (comma-separated): ").split(",")
 
-# Search the data
+
 search_data(accident_data, keywords)
 
 
