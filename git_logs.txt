@@ -1,0 +1,138 @@
+commit 83d037a92dd2dae4d6ef3b6c4b9db266c26fcc19
+Author: Lniyu2 <lniyuhire_17@hotmail.com>
+Date:   Sun Sep 3 10:48:10 2023 +1000
+
+    Updated Software Testing Report
+
+commit 12a0492807b5d255e2107b8e5eeb94caee1bce32
+Author: Lniyu2 <lniyuhire_17@hotmail.com>
+Date:   Sun Sep 3 10:45:50 2023 +1000
+
+    Final changes to Executive Summary.docx
+
+commit 17ef008e1e0bb104a1b6b1eee2d7bd0f3b79c01f
+Author: Lniyu2 <lniyuhire_17@hotmail.com>
+Date:   Sun Sep 3 10:44:22 2023 +1000
+
+    Spelling errors updated
+
+commit c78f77125b13a179d12410782dfd2bd950a9d509
+Author: mysteriouslyquiet <cody.perkins@griffithuni.edu.au>
+Date:   Sat Sep 2 17:00:16 2023 +1000
+
+    Updated Project Plan.docx
+
+commit 21cfcd5d88633cf46713408a6fcd32bd4b0168e1
+Author: Lniyu2 <lniyuhire_17@hotmail.com>
+Date:   Sat Sep 2 16:28:09 2023 +1000
+
+    Made changes on Executive Summary.docx
+
+commit fcd99ed1fa37aee1e327a5ff1cd49e2fcf946a35
+Author: Mitch <mitchell.reid90@gmail.com>
+Date:   Sat Sep 2 08:25:46 2023 +1000
+
+    Complete SDD and diagrams file
+
+commit 67c0fb4a5ff4ecb6e623eda34214b0bd997a7cda
+Author: Mitch <mitchell.reid90@gmail.com>
+Date:   Fri Sep 1 00:23:22 2023 +1000
+
+    Use cases
+
+commit 72221ddad3b37ad1ee2fa10da70bdacbcf809f6e
+Author: Lniyu2 <lniyuhire_17@hotmail.com>
+Date:   Thu Aug 31 14:23:44 2023 +1000
+
+    Updated Software Testing Report
+
+commit 1eca7c724f5c1da0a6788798b584628e0e304621
+Author: Lniyu2 <lniyuhire_17@hotmail.com>
+Date:   Thu Aug 31 14:20:18 2023 +1000
+
+    Updated Software Testing Report.docx
+
+commit 9cb52a86e9dba14bccd304eba4123bcb538235ae
+Author: Lniyu2 <lniyuhire_17@hotmail.com>
+Date:   Thu Aug 31 13:25:28 2023 +1000
+
+    Updated Executive Summary.docx
+
+commit ebc2a70982a06e35d664ca42644d6ee18d797026
+Merge: 230ef1d e284f5a
+Author: Mitch <mitchell.reid90@gmail.com>
+Date:   Wed Aug 30 20:02:09 2023 +1000
+
+    Merge branch 'main' of https://github.com/Lniyu1/Group_6
+
+commit 230ef1d044cddc36716beea9710bde045ea9c0cd
+Author: Mitch <mitchell.reid90@gmail.com>
+Date:   Wed Aug 30 20:01:48 2023 +1000
+
+    update
+
+commit e284f5a80894cdf4d43115d5c43d10026591c019
+Author: mysteriouslyquiet <cody.perkins@griffithuni.edu.au>
+Date:   Wed Aug 30 11:08:33 2023 +1000
+
+    Updated Gantt Project.gan
+
+commit 0fdf569e60b7b6a6492feb7d731c59404c1eab0f
+Author: mysteriouslyquiet <cody.perkins@griffithuni.edu.au>
+Date:   Wed Aug 30 10:58:24 2023 +1000
+
+    Updated Project Plan.docx
+
+commit cca82c54c3e97ed0a14db9d21dd281844c8929af
+Author: mysteriouslyquiet <cody.perkins@griffithuni.edu.au>
+Date:   Tue Aug 29 22:14:23 2023 +1000
+
+    Updated Project Plan.docx
+
+commit 39c2ec6bdc339b28187932befbd8ea53b2240979
+Author: Mitch <mitchell.reid90@gmail.com>
+Date:   Sun Aug 27 18:13:44 2023 +1000
+
+    small update
+
+commit 30540ed98e4ef8ca605b32a4ff0387e02ca08b2e
+Author: Mitch <mitchell.reid90@gmail.com>
+Date:   Sat Aug 26 18:08:20 2023 +1000
+
+    system vision update
+
+commit 9cf2ecc475ca01e5c57c96b0d0d9a575484cafb2
+Author: Mitch <mitchell.reid90@gmail.com>
+Date:   Fri Aug 25 20:30:06 2023 +1000
+
+    small update
+
+commit 52db4a3fa8f2dd2690d16285e5f9eea2ca170694
+Author: Mitch <mitchell.reid90@gmail.com>
+Date:   Thu Aug 24 13:13:05 2023 +1000
+
+    system features
+
+commit 25c2aa86ee3f1c39a8cd934f3afbb56092951def
+Author: Lniyu2 <lniyuhire_17@hotmail.com>
+Date:   Mon Aug 21 18:29:36 2023 +1000
+
+    Updated Executive Summary.docx
+
+commit 4ffacd1b98d4ba5e63403312102f6e917a3a0bb7
+Author: Mitch <mitchell.reid90@gmail.com>
+Date:   Fri Aug 18 17:55:37 2023 +1000
+
+    test
+
+commit 5bf63c6cb46a6d47e5d1ab09935659649379c9de
+Author: Lniyu2 <lniyuhire_17@hotmail.com>
+Date:   Thu Aug 17 14:23:19 2023 +1000
+
+    Added project documents and files
+
+commit 80dd6c8e88982633e54919e72b645833d8a44184
+Author: Lniyu2 <lniyuhire_17@hotmail.com>
+Date:   Thu Aug 17 14:12:35 2023 +1000
+
+    Added 2810ICT_Assignment folder
