@@ -1,4 +1,6 @@
 import pandas as pd
+import matplotlib.pyplot as plt
+
 
 def load_data(data_path):
     try:
@@ -8,18 +10,21 @@ def load_data(data_path):
         print("File not found. Please check the file path.")
         return None
 
+
 def highlight_matches(val, keywords):
     for keyword in keywords:
         if keyword.lower() in str(val).lower():
             return 'background-color: yellow'
     return ''
 
+
 def tabulate_data(data, page_size=10, keywords=None):
     if data is not None:
         pd.set_option('display.max_columns', 25)
 
         if keywords:
-            display_data = data.head(page_size).style.applymap(lambda x: highlight_matches(x, keywords), subset=data.columns[1:])
+            display_data = data.head(page_size).style.applymap(lambda x: highlight_matches(x, keywords),
+                                                               subset=data.columns[1:])
             print(display_data)
         else:
             while True:
@@ -37,6 +42,7 @@ def tabulate_data(data, page_size=10, keywords=None):
     else:
         print("No data to tabulate.")
 
+
 def search_data(data, keywords):
     if data is not None:
         # Search in column names
@@ -51,6 +57,18 @@ def search_data(data, keywords):
             print("No matching columns found.")
     else:
         print("No data to search.")
+
+
+def create_bar_chart(data, x_label, y_label, title):
+    plt.figure(figsize=(10, 6))  # Adjust the figure size if needed
+    plt.bar(data[x_label], data[y_label])
+    plt.xlabel(x_label)
+    plt.ylabel(y_label)
+    plt.title(title)
+    plt.xticks(rotation=45)  # Rotate x-axis labels for better readability
+    plt.tight_layout()  # Ensure the labels fit within the figure
+    plt.show()
+
 
 def main():
     # Define the path to the dataset
@@ -68,6 +86,18 @@ def main():
     # Perform the search in column names
     print("Searching for keywords in column names:", keywords)
     search_data(accident_data, keywords)
+
+    # Create a bar chart based on user input
+    x_label = input("Enter the x-axis label: ")
+    y_label = input("Enter the y-axis label: ")
+    title = input("Enter the chart title: ")
+
+    # Filter and aggregate data as needed for the bar chart
+    chart_data = accident_data.groupby(x_label)[y_label].count().reset_index()
+
+    # Create the bar chart
+    create_bar_chart(chart_data, x_label, y_label, title)
+
 
 if __name__ == "__main__":
     main()

@@ -1,12 +1,4 @@
 import pandas as pd
-import matplotlib.pyplot as plt
-
-def create_bar_chart(data, labels, title, x_label, y_label):
-    plt.bar(labels, data)
-    plt.title(title)
-    plt.xlabel(x_label)
-    plt.ylabel(y_label)
-    plt.show()
 
 
 def load_data(data_path):
@@ -16,6 +8,7 @@ def load_data(data_path):
     except FileNotFoundError:
         print("File not found. Please check the file path.")
         return None
+
 
 def tabulate_data(data, page_size=10):
     if data is not None:
@@ -48,6 +41,7 @@ def tabulate_data(data, page_size=10):
     else:
         print("No data to tabulate.")
 
+
 def search_data(data, keywords):
     if data is not None:
         # Search in column names
@@ -62,13 +56,8 @@ def search_data(data, keywords):
     else:
         print("No data to search.")
 
+
 def main():
-
-    data = [10, 20, 30, 40, 50]
-    labels = ['Category A', 'Category B', 'Category C', 'Category D', 'Category E']
-
-    create_bar_chart(data, labels, 'Sample Bar Chart', 'Categories', 'Values')
-
     # Define the path to the dataset
     dataset_path = "Crash Statistics Victoria.csv"
 
@@ -84,6 +73,7 @@ def main():
     # Perform the search in column names
     print("Searching for keywords in column names:", keywords)
     search_data(accident_data, keywords)
+
 
 if __name__ == "__main__":
     main()
